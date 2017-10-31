@@ -54,10 +54,6 @@
 	NSString *modelPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingString:@"/model/model.txt"];
 
 	esr = [[ESRWrapper alloc] initWithModel:modelPath];
-	//
-	//
-	
-	
 	
 }
 -(AVCaptureDevice *)frontFacingCameraIfAvailable

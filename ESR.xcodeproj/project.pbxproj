@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C96E6091FA88F660030CC72 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C96E6081FA88F660030CC72 /* opencv2.framework */; };
+		0C96E60C1FA8903A0030CC72 /* ESR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C96E60A1FA8903A0030CC72 /* ESR.cpp */; };
 		0C997D181F9F07F300C4AFC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C997D171F9F07F300C4AFC1 /* AppDelegate.m */; };
 		0C997D1B1F9F07F300C4AFC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C997D1A1F9F07F300C4AFC1 /* main.m */; };
 		0C997D1E1F9F07F300C4AFC1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C997D1D1F9F07F300C4AFC1 /* ViewController.mm */; };
@@ -36,8 +38,6 @@
 		0C997D9F1F9F10CE00C4AFC1 /* FDFaceDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C997D9C1F9F10CE00C4AFC1 /* FDFaceDetector.m */; };
 		0C997DA01F9F10CE00C4AFC1 /* FDFaceFeatures.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C997D9E1F9F10CE00C4AFC1 /* FDFaceFeatures.m */; };
 		0C997DA41F9F118500C4AFC1 /* ESRWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C997D5F1F9F0AD900C4AFC1 /* ESRWrapper.mm */; };
-		0C997DA81F9F126100C4AFC1 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C997DA71F9F126100C4AFC1 /* opencv2.framework */; };
-		0C997DA91F9F126600C4AFC1 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C997DA71F9F126100C4AFC1 /* opencv2.framework */; };
 		0C997DAB1F9F127200C4AFC1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C997DAA1F9F127200C4AFC1 /* CoreMedia.framework */; };
 		0C997DAD1F9F127700C4AFC1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C997DAC1F9F127700C4AFC1 /* AVFoundation.framework */; };
 		0C997DAF1F9F128100C4AFC1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C997DAE1F9F128100C4AFC1 /* CoreVideo.framework */; };
@@ -83,6 +83,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C96E6081FA88F660030CC72 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		0C96E60A1FA8903A0030CC72 /* ESR.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ESR.cpp; sourceTree = "<group>"; };
+		0C96E60B1FA8903A0030CC72 /* ESR.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ESR.hpp; sourceTree = "<group>"; };
 		0C997D131F9F07F300C4AFC1 /* ESR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C997D161F9F07F300C4AFC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C997D171F9F07F300C4AFC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,7 +136,6 @@
 		0C997D9C1F9F10CE00C4AFC1 /* FDFaceDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFaceDetector.m; sourceTree = "<group>"; };
 		0C997D9D1F9F10CE00C4AFC1 /* FDFaceFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFaceFeatures.h; sourceTree = "<group>"; };
 		0C997D9E1F9F10CE00C4AFC1 /* FDFaceFeatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFaceFeatures.m; sourceTree = "<group>"; };
-		0C997DA71F9F126100C4AFC1 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		0C997DAA1F9F127200C4AFC1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		0C997DAC1F9F127700C4AFC1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		0C997DAE1F9F128100C4AFC1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
@@ -147,7 +149,7 @@
 			files = (
 				0C997D5D1F9F08E900C4AFC1 /* CoreMedia.framework in Frameworks */,
 				0C997D5B1F9F08E100C4AFC1 /* CoreVideo.framework in Frameworks */,
-				0C997DA81F9F126100C4AFC1 /* opencv2.framework in Frameworks */,
+				0C96E6091FA88F660030CC72 /* opencv2.framework in Frameworks */,
 				0C997D591F9F08CF00C4AFC1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,7 +175,6 @@
 				0C997DAF1F9F128100C4AFC1 /* CoreVideo.framework in Frameworks */,
 				0C997DAD1F9F127700C4AFC1 /* AVFoundation.framework in Frameworks */,
 				0C997DAB1F9F127200C4AFC1 /* CoreMedia.framework in Frameworks */,
-				0C997DA91F9F126600C4AFC1 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,8 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				0C997DB71F9F307500C4AFC1 /* model */,
-				0C997DA71F9F126100C4AFC1 /* opencv2.framework */,
 				0C997D461F9F082E00C4AFC1 /* Demo.cpp */,
+				0C96E6081FA88F660030CC72 /* opencv2.framework */,
 				0C997D471F9F082E00C4AFC1 /* FaceAlignment.h */,
 				0C997D481F9F082E00C4AFC1 /* Fern.cpp */,
 				0C997D491F9F082E00C4AFC1 /* FernCascade.cpp */,
@@ -244,6 +245,8 @@
 				0C997D191F9F07F300C4AFC1 /* Supporting Files */,
 				0C997D5E1F9F0AD900C4AFC1 /* ESRWrapper.h */,
 				0C997D5F1F9F0AD900C4AFC1 /* ESRWrapper.mm */,
+				0C96E60A1FA8903A0030CC72 /* ESR.cpp */,
+				0C96E60B1FA8903A0030CC72 /* ESR.hpp */,
 			);
 			path = ESR;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				0C997D521F9F082E00C4AFC1 /* TestDemo.cpp in Sources */,
 				0C997D541F9F082E00C4AFC1 /* Utils.cpp in Sources */,
 				0C997D4E1F9F082E00C4AFC1 /* Demo.cpp in Sources */,
+				0C96E60C1FA8903A0030CC72 /* ESR.cpp in Sources */,
 				0C997D511F9F082E00C4AFC1 /* ShapeRegressor.cpp in Sources */,
 				0C997D531F9F082E00C4AFC1 /* TrainDemo.cpp in Sources */,
 				0C997D181F9F07F300C4AFC1 /* AppDelegate.m in Sources */,
@@ -785,6 +789,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ESR",
+					"$(PROJECT_DIR)/ESR/model",
 				);
 				INFOPLIST_FILE = ESR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -801,6 +806,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ESR",
+					"$(PROJECT_DIR)/ESR/model",
 				);
 				INFOPLIST_FILE = ESR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
